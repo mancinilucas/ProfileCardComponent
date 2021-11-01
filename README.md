@@ -11,8 +11,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-
+  
 ## Overview
 
 ### The challenge
@@ -21,12 +20,12 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![](.images/screenshot.png)
+![](/images/screenshot.png)
 
 ### Links
 
-- Solution URL: [Under Construction](https://your-solution-url.com)
-- Live Site URL: [Under construction](https://your-live-site-url.com)
+- Solution URL: [My Solution](https://mancinilucas.github.io/ProfileCardComponent/)
+
 
 ## My process
 
