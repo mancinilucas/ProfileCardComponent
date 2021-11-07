@@ -28,21 +28,22 @@ body {
   align-items: center;
   justify-content: center;
   background-color: var(--dark-cyan);
+  flex-wrap: wrap;
 }
 
 .pattern-top {
-  width: 200%;
-  margin-bottom: 65rem;
-  margin-right: 70rem;
-  opacity: 50%;
+  position: absolute;
+  width: 45rem;
+  top: -20rem;
+  left: -25rem;
 }
 
 .pattern-bottom {
-  width: 200%;
-  position: fixed;
-  margin-top: 30rem;
-  margin-left: 30rem;
-  opacity: 50%;
+  position: absolute;
+  width: 72rem;
+  bottom: -30rem;
+  right: -50rem;
+  transform: rotate(-10deg);
 }
 
 /* CONTENT ----------*/
@@ -56,11 +57,12 @@ body {
   flex-flow: column wrap;
   align-items: center;
   position: absolute;
-  margin-bottom: 5rem;
+  box-shadow: -8px 8px 8px var(--dark-cyan);
+  z-index: 9999;
 }
 
 .container .header-section {
-  background: url(/images/bg-pattern-card.svg) no-repeat top;
+  background: url(images/bg-pattern-card.svg) no-repeat top;
   width: 100%;
   height: 12rem;
   border-radius: 1.5rem 1.5rem 0 0;
@@ -68,7 +70,7 @@ body {
 }
 
 .container .avatar {
-  background: url(/images/image-victor.jpg) no-repeat center/cover;
+  background: url(images/image-victor.jpg) no-repeat center/cover;
   position: absolute;
   width: 9rem;
   height: 9rem;
@@ -159,7 +161,7 @@ body {
 footer {
   font-size: 1.1rem;
   text-align: center;
-  position: fixed;
+  position: absolute;
   bottom: 1rem;
 }
 
